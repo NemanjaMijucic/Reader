@@ -63,7 +63,7 @@ const Header = (props) => {
   };
 
   return (
-    <div className={classes.header}>
+    <header className={classes.header}>
       <div>
         <h1>
           Reader App <FontAwesomeIcon icon={faBookOpen} />{" "}
@@ -90,7 +90,7 @@ const Header = (props) => {
           Go to profile <FontAwesomeIcon icon={faArrowAltCircleRight} />{" "}
         </Button>
       </Link>
-    </div>
+    </header>
   );
 };
 

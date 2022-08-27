@@ -67,6 +67,7 @@ export const BookContextProvider = (props) => {
       setCurrentlyReading(
         currentlyReading.filter((book) => book.id !== item.id)
       );
+      localStorage.removeItem("books");
       localStorage.setItem("books", JSON.stringify(currentlyReading));
     }
   };

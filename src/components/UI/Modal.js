@@ -50,10 +50,12 @@ const Content = ({ books, bookCtx }) => {
               <li>id: {book.id}</li>
               <li>author: {book.author}</li>
 
-              <li>language: {book.language[0]}</li>
+              <li>language: {book.language ? book.language[0] : "unknown"}</li>
 
-              <li>published: {book.publishDate}</li>
-              <li>publisher: {book.publisher}</li>
+              <li>
+                published: {book.publishDate ? book.publishDate : "unknown"}
+              </li>
+              <li>publisher: {book.publisher ? book.publisher : "unknown"}</li>
               <li>
                 readed status:
                 {book.readed ? (

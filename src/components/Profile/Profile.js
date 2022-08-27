@@ -67,7 +67,7 @@ const Profile = () => {
     <div className={classes.profile}>
       <div className={classes["profile-title"]}>
         <div>
-          <Link to="/">
+          <Link to="/Reader">
             <Button className={classes.link}>
               <FontAwesomeIcon icon={faArrowAltCircleLeft} />
               Back to main page

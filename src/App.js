@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <Route path="/" exact>
+      <Route path="/Reader" exact>
         {bookCtx.showModal && <Modal books={books} />}
         <Header getBooks={getBooks} getLoadingState={getLoadingState} />
         {isLoading && <Loader />}
