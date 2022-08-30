@@ -47,7 +47,7 @@ const Book = ({ book, onAddToReadedList, onAddToReadingList, onShowModal }) => {
           bookCtx.getIdForModal(book.id);
         }}
       >
-        details
+        Details
       </Button>
     </div>
   );

@@ -38,9 +38,9 @@ const App = () => {
         {!isLoading && !error && <Main books={books} />}
         <Footer />
       </Route>
-      <Route path="/profile">
-        {bookCtx.showModal && <Modal books={books} />}
+      <Route path="/profile/">
         <Profile />
+        {bookCtx.showModal && <Modal books={books} />}
       </Route>
     </Fragment>
   );

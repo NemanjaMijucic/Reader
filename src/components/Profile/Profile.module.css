@@ -10,6 +10,9 @@
 .profile-title {
   width: 90%;
   margin: 20px;
+  padding: 30px;
+  background-image: linear-gradient(var(--darkgrey), var(--darkgreen));
+  border-radius: 10px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -33,4 +36,8 @@ h3 {
 
 .link {
   color: var(--lightgreen);
+}
+
+.faicon {
+  margin: 0 5px;
 }

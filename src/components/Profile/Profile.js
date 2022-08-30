@@ -69,7 +69,10 @@ const Profile = () => {
         <div>
           <Link to="/Reader">
             <Button className={classes.link}>
-              <FontAwesomeIcon icon={faArrowAltCircleLeft} />
+              <FontAwesomeIcon
+                icon={faArrowAltCircleLeft}
+                className={classes.faicon}
+              />
               Back to main page
             </Button>
           </Link>
